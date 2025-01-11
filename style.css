@@ -1,0 +1,88 @@
+/*Parant style*/
+*{margin: 0px;
+  padding: 0px;
+  font-family: "Fira Sans", serif;
+}
+html{background: rgb(17, 16, 16);
+    margin: auto;
+     }
+body{background-color:rgb(245, 245, 245);
+    width: 1200px;
+    margin: auto;}
+/* Parant style*/
+
+
+header{
+    border:1px solid rgb(0, 255, 170);
+    width: 82%;
+     margin: auto;}
+nav>ol{display: flex;
+        border: 1px dotted black;
+        justify-content:space-between;
+        align-items: center;
+         margin: 20px 0px 20px 0px ;
+        list-style: none;}
+
+nav>ol>li:first-child{font-size: 30px;
+                      color: rgb(14, 14, 14);
+                      font-weight: 700;}
+nav>ol>li:last-child>button{
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 6px;
+    font-size: 20px;
+    color: rgb(0, 106, 80);
+    padding: 5px;
+    font-weight: 700;}
+/*Main*/
+main{border: 1px solid red;
+      width: 82%;
+     height: 1000px;
+     margin: auto;}
+main > .banner{border-radius: 18px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 5%; 
+    }     
+main > .banner >.bannertext{border: 1px solid red;
+                            width: 66%;}   
+main > .banner >.bannertext>p{color: rgb(14, 14, 14);
+    font-size: 36px;
+    letter-spacing: .6px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: left;}
+main > .banner >.bannertext>p>span{font-size: 20px;
+                                        color: rgb(69, 72, 74);}
+main > .banner >.bannertext>p>button{
+    margin-top: 14px;
+    border: none;
+    color: white;
+     background-color:rgb(0, 106, 80);
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 10px 17px;
+    font-weight: 700;}  
+    /* All Hover */
+ main > .banner >.bannertext>p>button:hover{color: white;
+    background-color: rgba(7, 41, 178, 0.945);}    
+li:last-child>button:hover{color: white;
+        background-color: rgba(7, 41, 178, 0.945);} 
+    /* All Hover */
+main > .banner >.bannerimg{border: 1px solid red;
+                           width: 40%;}   
+main > .banner >.bannerimg>img{width: 100%;}
+/*######Main#####*/
+footer{border: green solid 2px;
+        height: 100px;
+         width: 82%;
+        margin: auto;}     
+      
+
+
+
+
+
