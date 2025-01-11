@@ -319,6 +319,46 @@ color: white;
 
 /* ******Subscribe ****** */
 
+.sub-cont{background-color:rgb(198, 228, 214) ;
+    padding: 60px 50px;
+    text-align: center;
+    border-radius: 24;}
+
+.sub-cont > h1{font-size: 35px;
+              margin-bottom: 20px;}
+.sub-cont >p{font-size: 15px;           
+           color: rgb(58, 52, 52);
+           font-weight: 500;
+           line-height: 20px;
+              width: 66%;
+              align-items: center;
+              margin: auto;}
+             
+.sub-cont > span {font-size: 16px;
+    font-weight: 500;
+     color: #000000b6;   }              
+.subbox{margin-top: 15px;
+width: fit-content;
+margin: auto;
+height: 40px;
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+margin-top: 20px;
+}  
+.subbox > input, button {border: none;}
+.subbox > input {width: 500px;
+   border-radius: 7px 0px 0px 7px;}
+.subbox > button {background-color: green;
+       width: 140px;
+       font-size: 20px;
+       border-radius: 0px 7px 7px 0px;
+       color: beige;}
+.subbox > button:hover{background-color: blue;
+            color: white;}           
+.subbox > input::placeholder{padding-left: 20px;
+                font-size: 16px;
+                 font-weight: 500;} 
 /* #######Subscribe ####### */
 
 
@@ -328,10 +368,7 @@ color: white;
 
 
 /*######Main#####*/
-footer{border: green solid 2px;
-        height: 100px;
-         width: 82%;
-        margin: auto;}     
+   
       
 
 
