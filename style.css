@@ -36,7 +36,6 @@ nav>ol>li:last-child>button{
 /*Main*/
 main{border: 1px solid red;
       width: 82%;
-     height: 1000px;
      margin: auto;}
 main > .banner{border-radius: 18px;
     background: rgb(198, 228, 214);
@@ -98,6 +97,122 @@ main > .banner >.bannerimg>img{width: 100%;}
 
 .vis-cards > .card > .card-desc{font-size: 10px;}         
 /*######Vision of Future######*/
+
+
+/******Recent News*****/
+
+.R-New{
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+
+
+/* R-cont */
+.R-header {
+}
+
+.R-header >h1 {
+    font-size: 30px;
+    color: rgb(13, 19, 33);
+
+    font-weight: 700;
+}
+
+.R-header >p { font-size: 14px;
+    color: rgba(13, 19, 33, 0.677);
+    font-weight: 600;
+    line-height: 21px;
+    margin-top: 15px;
+}
+
+
+/* R-cont */
+.R-cont {
+    width:100%;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid red;
+}
+
+.R-cont>.R-cont-texts {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.R-cont>.R-cont-texts>h1 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+}
+
+.R-cont>.R-cont-texts>p {
+    color: rgb(13, 19, 33);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.R-cont>.R-cont-texts>a>button {
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+   color: white;
+   border: none;
+    opacity: 0.7;
+    width: 110px;
+    font-weight: 600;
+    font-size: 15px;
+    height: 40px;
+
+}
+.R-cont>.R-cont-texts>a>button:hover{background-color: green;
+border: none;
+border-radius: 6px;
+color: white;
+}
+
+.img {height: 250px;
+    border: 1px solid red;
+}
+
+.img>img {height: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
