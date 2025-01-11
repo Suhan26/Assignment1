@@ -99,24 +99,27 @@ main > .banner >.bannerimg>img{width: 100%;}
 /*######Vision of Future######*/
 
 
-/******Recent News*****/
+
+
+
+
+/*****************Recent News***************************/
 
 .R-New{
+    border: 1px solid blue;
     margin: auto;
-    margin-top: 40px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    margin-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 
 
 /* R-cont */
-.R-header {
-}
+
 
 .R-header >h1 {
     font-size: 30px;
@@ -196,16 +199,77 @@ color: white;
     border-radius: 10px;
 }
 
+/*########Recent News#############*/
+
+
+
+
+/************Donate Today****************** */
+.donate-today-con{border: 1px solid red;
+                   width:95%;
+                   margin: auto;
+                   text-align: center;
+                   padding: 30px 0px;
+                   display: flex;
+                   flex-direction: column;
+                   gap: 35px;
+                }
+.donateboxs{border: 1px solid red;
+                  display: flex;
+                   flex-direction:row;
+                   justify-content: space-between;
+                   gap: 20px;}
+ 
+.donatetitle{font-size: 40px;
+              margin-bottom: 10px;}
+.donades{font-size: 15px;
+         width: 95%;
+         margin: auto;
+        text-align: center;
+        border: 1px solid red;
+         line-height: 20px;}
+
+
+.donateboxs > .box{background-color: white;
+                    height: 100px;
+                    width: 200px;
+                    display: flex;
+                    justify-content: center;
+                    font-size: 25px;
+                    font-weight: 600;
+                    align-items: center;
+                    border-radius: 10px;
+                 }
+
+.donateboxs > .box:hover {background-color: green;
+                          color: white;}
 
 
 
 
 
 
-
-
-
-
+.donatbuttons > input {width: 95%;
+                       border: none;
+                        border-radius: 4px;
+                        padding: 10px;
+                       height: 34px;
+                        margin-top: 7px;}
+.donatbuttons > input::placeholder{text-align: center;
+                                    font-size: 25px;}                        
+.donatbuttons > button{
+    border:none;
+    background-color:darkgreen;
+    color: white;
+    border-radius: 6px;
+    font-size: 25px;
+    width: 200px;
+    height: 70px;
+    padding: 5px;
+    font-weight: 700;
+   margin-top:20px;
+}                 
+/*#############Donate Today##############* */
 
 
 
