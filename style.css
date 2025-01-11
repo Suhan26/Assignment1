@@ -13,11 +13,12 @@ body{background-color:rgb(245, 245, 245);
 
 
 header{
-    border:1px solid rgb(0, 255, 170);
+    border:1px solid rgb(245, 245, 245);
+    margin-top: 30px;
     width: 82%;
      margin: auto;}
 nav>ol{display: flex;
-        border: 1px dotted black;
+        /* border: 1px dotted black; */
         justify-content:space-between;
         align-items: center;
          margin: 20px 0px 20px 0px ;
@@ -31,10 +32,11 @@ nav>ol>li:last-child>button{
     border-radius: 6px;
     font-size: 20px;
     color: rgb(0, 106, 80);
-    padding: 5px;
+    padding: 5px 10px;
     font-weight: 700;}
 /*Main*/
-main{border: 1px solid red;
+main{
+    /* border: 1px solid red; */
       width: 82%;
      margin: auto;}
 main > .banner{border-radius: 18px;
@@ -45,7 +47,8 @@ main > .banner{border-radius: 18px;
     margin: auto;
     padding: 5%; 
     }     
-main > .banner >.bannertext{border: 1px solid red;
+main > .banner >.bannertext{
+                   /* border: 1px solid red; */
                             width: 66%;}   
 main > .banner >.bannertext>p{color: rgb(14, 14, 14);
     font-size: 36px;
@@ -64,38 +67,81 @@ main > .banner >.bannertext>p>button{
     border-radius: 6px;
     font-size: 20px;
     padding: 10px 17px;
-    font-weight: 700;}  
+    font-weight: 400;}  
     /* All Hover */
  main > .banner >.bannertext>p>button:hover{color: white;
     background-color: rgba(7, 41, 178, 0.945);}    
 li:last-child>button:hover{color: white;
         background-color: rgba(7, 41, 178, 0.945);} 
     /* All Hover */
-main > .banner >.bannerimg{border: 1px solid red;
+main > .banner >.bannerimg{
+    /* border: 1px solid red; */
                            width: 40%;}   
 main > .banner >.bannerimg>img{width: 100%;}
 
 
 /* Vision of Future  */
-.VisOFfut{border: 1px solid black;
-           margin: 100px 0px;}
+.VisOFfut{
+    /* border: 1px solid black; */
+           margin:70px 0px;}
+.vis-texts > h1 {color: rgb(14, 14, 14);
+                  font-size: 29px;}
+.vis-texts > p {color:rgb(69, 57, 57);
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 13px;
+    color: rgba(14, 14, 14, 0.7);}
 
-.vis-cards{margin-top: 40px;
-           border: 1px solid red;
+
+.vis-cards{margin-top: 30px;
+           /* border: 1px solid red; */
            display: flex;          
            justify-content: space-between;
            gap:16px;}  
-.vis-cards > .card{background-color: gainsboro;
-                  padding: 20px;
+.vis-cards > .card{
+               padding: 20px;
+                width: 27%;
                 border-radius: 10px;
                display: flex;
                flex-direction: column;
                 gap:20px;}   
+.cardtitle{font-size: 24px;}
+.card-desc{font-size: 15px;
+           font-weight: 500;
+           color: rgba(66, 70, 72, 0.819);
+        }
+ .vis-cards > .card > button:hover{background-color: blue;
+                                    color: white;}        
+
+.card1{background-color:rgba(84, 144, 245, 0.2);} 
+.card1>.card-desc{margin-bottom: 23px;}  
+.card1 >button {background-color:rgb(84, 144, 245);
+               border: none;
+               width: fit-content;
+               padding: 10px;
+               border-radius: 5px;
+              color:white;}        
+
+.card2{background-color:rgb(198, 228, 214);}  
+.card2>.card-desc{margin-bottom: 20px;}  
+.card2 >button {background-color: rgb(9, 161, 92);
+              border: none;
+              width: fit-content;
+              padding: 10px;
+              border-radius: 5px;
+                 color: white;}    
+
+.card3{background-color:rgb(247, 235, 207);}
+.card3 > .card-desc {margin-bottom: 40px;}  
+.card3 >button {background-color: rgb(255, 194, 57);
+                border: none;
+                width: fit-content;
+                border-radius: 5px;
+                padding: 10px;
+                      color: white;}
+
 .vis-cards > .card >img{width:50px;}        
-
-.vis-cards > .card > .cardtitle{font-size: 17px;}        
-
-.vis-cards > .card > .card-desc{font-size: 10px;}         
+    
 /*######Vision of Future######*/
 
 
@@ -106,7 +152,6 @@ main > .banner >.bannerimg>img{width: 100%;}
 /*****************Recent News***************************/
 
 .R-New{
-    border: 1px solid blue;
     margin: auto;
     border-radius: 10px;
     display: flex;
@@ -122,7 +167,7 @@ main > .banner >.bannerimg>img{width: 100%;}
 
 
 .R-header >h1 {
-    font-size: 30px;
+    font-size: 35px;
     color: rgb(13, 19, 33);
 
     font-weight: 700;
@@ -146,11 +191,10 @@ main > .banner >.bannerimg>img{width: 100%;}
     justify-content:space-between;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 1px solid red;
 }
 
 .R-cont>.R-cont-texts {
-    width: 450px;
+    width: 525px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -185,14 +229,13 @@ main > .banner >.bannerimg>img{width: 100%;}
     height: 40px;
 
 }
-.R-cont>.R-cont-texts>a>button:hover{background-color: green;
+.R-cont>.R-cont-texts>a>button:hover{background-color: rgb(21, 43, 168);
 border: none;
 border-radius: 6px;
 color: white;
 }
 
 .img {height: 250px;
-    border: 1px solid red;
 }
 
 .img>img {height: 100%;
@@ -205,7 +248,7 @@ color: white;
 
 
 /************Donate Today****************** */
-.donate-today-con{border: 1px solid red;
+.donate-today-con{
                    width:95%;
                    margin: auto;
                    text-align: center;
@@ -214,29 +257,30 @@ color: white;
                    flex-direction: column;
                    gap: 35px;
                 }
-.donateboxs{border: 1px solid red;
-                  display: flex;
+.donatetitle{font-size: 37px;
+              margin-bottom: 10px;}
+.donades{font-size: 16px;
+          font-weight: 400;
+         width: 95%;
+         margin: auto;
+        text-align: center;
+         line-height: 20px;}
+
+.donateboxs{ display: flex;
                    flex-direction:row;
                    justify-content: space-between;
                    gap: 20px;}
  
-.donatetitle{font-size: 40px;
-              margin-bottom: 10px;}
-.donades{font-size: 15px;
-         width: 95%;
-         margin: auto;
-        text-align: center;
-        border: 1px solid red;
-         line-height: 20px;}
 
 
 .donateboxs > .box{background-color: white;
                     height: 100px;
-                    width: 200px;
+                    width: 210px;
                     display: flex;
                     justify-content: center;
                     font-size: 25px;
-                    font-weight: 600;
+                    font-weight: 700;
+                    color: rgb(47, 49, 50);
                     align-items: center;
                     border-radius: 10px;
                  }
@@ -267,12 +311,15 @@ color: white;
     height: 70px;
     padding: 5px;
     font-weight: 700;
-   margin-top:20px;
-}                 
+   margin-top:20px;}
+   .donatbuttons > button:hover{color: white;
+    background-color: rgba(7, 41, 178, 0.945);}     
 /*#############Donate Today##############* */
 
 
+/* ******Subscribe ****** */
 
+/* #######Subscribe ####### */
 
 
 
