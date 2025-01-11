@@ -75,6 +75,32 @@ li:last-child>button:hover{color: white;
 main > .banner >.bannerimg{border: 1px solid red;
                            width: 40%;}   
 main > .banner >.bannerimg>img{width: 100%;}
+
+
+/* Vision of Future  */
+.VisOFfut{border: 1px solid black;
+           margin: 100px 0px;}
+
+.vis-cards{margin-top: 40px;
+           border: 1px solid red;
+           display: flex;          
+           justify-content: space-between;
+           gap:16px;}  
+.vis-cards > .card{background-color: gainsboro;
+                  padding: 20px;
+                border-radius: 10px;
+               display: flex;
+               flex-direction: column;
+                gap:20px;}   
+.vis-cards > .card >img{width:50px;}        
+
+.vis-cards > .card > .cardtitle{font-size: 17px;}        
+
+.vis-cards > .card > .card-desc{font-size: 10px;}         
+/*######Vision of Future######*/
+
+
+
 /*######Main#####*/
 footer{border: green solid 2px;
         height: 100px;
